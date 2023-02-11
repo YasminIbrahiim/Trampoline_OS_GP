@@ -1,0 +1,8 @@
+CPU stm32_nucleo {
+  PLATFORM_FILES stm32f4nucleo {
+    PATH = "cortex/armv7em/stm32f446/stm32f4nucleo";
+    CFILE = "stm32f4_nucleo.c";
+    CFILE = "tp.c";
+  };
+};
+    
